@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.kujipa.ocrtuto.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imagemachine"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/machines"
+            android:onClick="logo_bouton1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gestion de la machine"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/imageporte"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/door"
+            android:onClick="logo_bouton2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Historique de l'ouverture de la porte"
+            android:textAlignment="center"/>
+
+
+        <ImageButton
+            android:id="@+id/imagemaintenance"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/maintenance"
+            android:onClick="logo_bouton3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gestion de la machine"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
